@@ -1,0 +1,78 @@
+{
+  "timestamp": "2026-01-28T15:14:02.701860",
+  "total_tests": 14,
+  "passed_tests": 13,
+  "success_rate": 92.85714285714286,
+  "results": [
+    {
+      "test": "Health Check",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Login Existing User",
+      "success": false,
+      "details": "Expected 200, got 401 - {'detail': 'Email ou senha incorretos'}"
+    },
+    {
+      "test": "User Registration",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get User Profile",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Business",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Business",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Lead",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Leads",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Create Landing Page",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Get Landing Pages",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Market Insights",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Strategy Generation",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Dashboard Data",
+      "success": true,
+      "details": ""
+    },
+    {
+      "test": "Generate Report",
+      "success": true,
+      "details": ""
+    }
+  ]
+}

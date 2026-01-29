@@ -1,0 +1,145 @@
+{
+  "identity": {
+    "name": "Radar de Clientes",
+    "mission": "Democratize market intelligence for small Brazilian businesses.",
+    "persona": "The Friendly Consultant. Smart, approachable, speaks plain Portuguese, and focuses on growth, not just data.",
+    "emotional_tone": "Trustworthy, Optimistic, Action-Oriented, 'Magical' (AI-powered).",
+    "visual_style": "Friendly Professional. High clarity, warm neutrals, vibrant accents, mobile-first ergonomics."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Outfit, sans-serif",
+      "body": "Figtree, sans-serif",
+      "mono": "JetBrains Mono, monospace"
+    },
+    "weights": {
+      "headings": "600 (SemiBold) or 700 (Bold)",
+      "body": "400 (Regular) or 500 (Medium)"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-5xl tracking-tight",
+      "h2": "text-3xl md:text-4xl tracking-tight",
+      "h3": "text-2xl md:text-3xl tracking-tight",
+      "body_lg": "text-lg leading-relaxed",
+      "body_base": "text-base leading-relaxed",
+      "caption": "text-sm text-muted-foreground"
+    },
+    "imports": [
+      "@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap');"
+    ]
+  },
+  "colors": {
+    "palette": {
+      "primary": {
+        "DEFAULT": "#6366F1",
+        "foreground": "#FFFFFF",
+        "description": "Indigo 500 - The 'Intelligence' color. Use for primary actions, active states, and brand moments."
+      },
+      "secondary": {
+        "DEFAULT": "#F97316",
+        "foreground": "#FFFFFF",
+        "description": "Orange 500 - The 'Growth' color. Use for alerts, conversion buttons, and highlights."
+      },
+      "background": {
+        "light": "#F8FAFC",
+        "dark": "#0F172A",
+        "description": "Slate 50 (Light) / Slate 900 (Dark). Never pure white or black."
+      },
+      "surface": {
+        "light": "#FFFFFF",
+        "dark": "#1E293B",
+        "description": "White (Light) / Slate 800 (Dark). For cards and containers."
+      },
+      "success": "#10B981",
+      "warning": "#F59E0B",
+      "error": "#EF4444",
+      "text": {
+        "primary": "#1E293B",
+        "secondary": "#64748B",
+        "dark_primary": "#F8FAFC",
+        "dark_secondary": "#94A3B8"
+      }
+    },
+    "gradients": {
+      "brand_subtle": "bg-gradient-to-br from-indigo-50 to-white dark:from-slate-900 dark:to-slate-800",
+      "action_glow": "shadow-[0_0_20px_rgba(99,102,241,0.3)]"
+    }
+  },
+  "layout": {
+    "spacing": {
+      "container_padding": "p-4 md:p-8 lg:p-12",
+      "section_gap": "gap-8 md:gap-12",
+      "card_padding": "p-6"
+    },
+    "grid_system": {
+      "mobile": "grid-cols-1 gap-4",
+      "tablet": "grid-cols-2 gap-6",
+      "desktop": "grid-cols-12 gap-8",
+      "bento_rules": "Use 'col-span-full' for heroes, 'col-span-6' for charts, 'col-span-4' for stats."
+    },
+    "radius": {
+      "default": "rounded-2xl",
+      "button": "rounded-full",
+      "card": "rounded-2xl"
+    }
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-primary text-primary-foreground hover:bg-primary/90 shadow-lg hover:shadow-xl transition-all duration-300 rounded-full px-8 py-6 font-semibold text-lg",
+      "secondary": "bg-white text-slate-900 border border-slate-200 hover:bg-slate-50 hover:border-slate-300 shadow-sm rounded-full px-6 py-4 font-medium",
+      "ghost": "hover:bg-slate-100 text-slate-600 hover:text-slate-900 rounded-lg px-4 py-2"
+    },
+    "cards": {
+      "style": "bg-card text-card-foreground rounded-2xl border border-border/50 shadow-sm hover:shadow-md transition-all duration-300",
+      "glass": "bg-white/80 dark:bg-slate-900/80 backdrop-blur-xl border border-white/20 shadow-lg"
+    },
+    "inputs": {
+      "style": "h-12 rounded-xl border-slate-200 bg-slate-50 focus:bg-white focus:ring-2 focus:ring-primary/20 transition-all"
+    },
+    "navigation": {
+      "mobile": "Fixed bottom bar, glassmorphism, 4-5 key icons (Home, Radar, Leads, Profile).",
+      "desktop": "Sidebar, clean, icon-first, collapsible."
+    }
+  },
+  "visual_enhancers": {
+    "shadows": "Use colored shadows for primary actions (e.g., shadow-indigo-500/20).",
+    "textures": "Subtle noise overlay on backgrounds to reduce digital sterility.",
+    "icons": "Phosphor Icons (Duotone) or Lucide React. Use stroke-width=1.5 for elegance.",
+    "animations": {
+      "hover": "transform hover:-translate-y-1 transition-transform duration-300",
+      "enter": "animate-in fade-in slide-in-from-bottom-4 duration-500"
+    }
+  },
+  "images": {
+    "hero_bg": "https://images.unsplash.com/photo-1637777277337-f114350fb088?auto=format&fit=crop&w=1920&q=80",
+    "personas": {
+      "barber": "https://images.unsplash.com/photo-1549663369-22ac6b052faf?auto=format&fit=crop&w=800&q=80",
+      "baker": "https://images.unsplash.com/photo-1755960749300-c4b95ebdf25d?auto=format&fit=crop&w=800&q=80",
+      "salon_owner": "https://images.unsplash.com/photo-1551386234-48770e28e791?auto=format&fit=crop&w=800&q=80"
+    },
+    "placeholders": {
+      "chart_empty": "https://illustrations.popsy.co/amber/chart.svg",
+      "success": "https://illustrations.popsy.co/amber/success.svg"
+    }
+  },
+  "accessibility": {
+    "contrast": "Ensure text is Slate-900 on light backgrounds, Slate-50 on dark.",
+    "focus": "Visible focus rings (ring-2 ring-primary ring-offset-2) are mandatory.",
+    "labels": "All icon-only buttons must have aria-label."
+  },
+  "instructions_to_main_agent": [
+    "1. INSTALL FONTS: Add the Google Fonts import to index.css immediately.",
+    "2. CONFIGURE TAILWIND: Update tailwind.config.js with the 'Outfit' and 'Figtree' font families and the custom color palette.",
+    "3. MOBILE FIRST: Build the Dashboard Overview as a vertical feed of 'Insight Cards' first, then expand to a grid for desktop.",
+    "4. USE SHADCN: Use the provided Shadcn components but OVERRIDE the default 'radius' and 'border' styles to match the 'Friendly Professional' look (rounded-2xl, soft borders).",
+    "5. NO LOREM IPSUM: Use realistic Portuguese copy (e.g., 'Tendências de Hoje', 'Novos Clientes', 'Sua Reputação').",
+    "6. DATA-TESTID: Add data-testid to all interactive elements (buttons, inputs, cards)."
+  ],
+  "universal_guidelines": [
+    "Avoid 'Inter' font for headings. Use 'Outfit'.",
+    "Do not use pure black (#000000). Use Slate-900 (#0F172A).",
+    "Do not use gradients on text (readability risk).",
+    "Use 'sonner' for toasts.",
+    "Ensure all images have alt text."
+  ]
+}

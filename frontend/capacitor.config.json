@@ -1,0 +1,9 @@
+{
+  "appId": "com.radardeclientes.app",
+  "appName": "Radar de Clientes",
+  "webDir": "build",
+  "server": {
+    "url": "https://3000-il4n5lzfnwjbwl8pvul18-790b2aac.us1.manus.computer",
+    "cleartext": true
+  }
+}
